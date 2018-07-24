@@ -1,0 +1,5 @@
+pkg.name: "ringbuf"
+pkg.description: "Ring buffer for fixed-size entries"
+pkg.author: "Simon Ratner <simon@proxy.co>"
+
+pkg.deps:
