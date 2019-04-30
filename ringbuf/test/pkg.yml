@@ -6,6 +6,7 @@ pkg.author: "Simon Ratner <simon@proxy.co>"
 pkg.deps:
   - "@proxyco-ringbuf/ringbuf"
   - "@apache-mynewt-core/test/testutil"
+  - "@apache-mynewt-core/sys/log/stub"
 
 pkg.deps.SELFTEST:
   - "@apache-mynewt-core/sys/console/stub"
