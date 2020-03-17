@@ -15,7 +15,7 @@ rb_init(struct ringbuf *rb, void *buf, uint16_t buf_len, uint16_t len)
 }
 
 int
-rb_append(struct ringbuf *rb, void *data, uint16_t len)
+rb_append(struct ringbuf *rb, const void *data, uint16_t len)
 {
   uint8_t *start;
   uint8_t *end;
