@@ -26,7 +26,7 @@ struct ringbuf_iter {
 };
 
 int rb_init(struct ringbuf *rb, void *buf, uint16_t buf_len, uint16_t len);
-int rb_append(struct ringbuf *rb, void *data, uint16_t len);
+int rb_append(struct ringbuf *rb, const void *data, uint16_t len);
 /* Entry must have been previously returned from rb_iter_next(). */
 int rb_flush_to(struct ringbuf *rb, uint8_t *entry);
 int rb_flush(struct ringbuf *rb);
